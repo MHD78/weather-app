@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wraper{
+    width: 220px;
+    position: absolute;
+    top: 45px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* margin:120px 0 25px 0; */
+}
+
+.wraper form{
+    width: 300px;
+}
