@@ -14,6 +14,7 @@
     background-position: center top;
     background-size: cover;
     border-radius: 5px;
+    overflow: hidden;
 }
 .container .city{
     display: flex;
@@ -23,8 +24,6 @@
     font-weight: 600;
     padding: 0 15px;
     margin: 65px auto 0 auto;
-    background-color: rgba(104, 104, 104, 0.555);
-    border-radius: 15px;
     color: aliceblue;
 }
 .container .country{
@@ -41,6 +40,10 @@
     font-size: 60px;
     margin: 25px 0 10px 0;
     color: aliceblue;
+}
+#c{
+    color: rgba(240, 248, 255, 0.829);
+
 }
 .container .temp span{
     /* position: absolute; */

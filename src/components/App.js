@@ -20,10 +20,10 @@ class App extends React.Component {
 
         const unsplash = await axios.get('https://api.unsplash.com/search/photos/?client_id=SEV07Bha1qERiei7cGuZK-c7ZVHlO-7Iy0FuUiLo5yQ', {
             params: {
-                query: `${input}  ${this.state.location.country}`
+                query: `${input}`
             }
         });
-        this.setState({ unsplash: unsplash.data.results[0].urls.regular });
+        this.setState({ unsplash: unsplash.data.results[1].urls.regular });
     }
 
     render() {
