@@ -17,7 +17,7 @@ class WeatherCard extends React.Component {
                 <p className="temp">{current.temp_c}<span id="c">&deg;c</span></p>
                 <div className="holder">
                     <p className="text">{condition.text}</p>
-                    <img src={condition.icon} />
+                    <img alt="" src={condition.icon} />
                 </div>
                 <ExtraInfo extra={current} />
                 <p className="last">Last Update<span>{lastUpdate} Min Ago</span></p>
